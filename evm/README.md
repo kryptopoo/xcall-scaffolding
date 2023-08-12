@@ -31,3 +31,18 @@ Run the following command to run the tests.
 ```bash
 npm run test
 ```
+
+
+## Deploy
+
+Run the following command to run the deployment.
+
+```bash
+truffle migrate --network sepolia
+```
+
+Verify
+
+```bash
+truffle run verify VotingDapp@0x4d567d5FD4eE927d3a29CBE2711986fe1aE8639E --network sepolia
+```
